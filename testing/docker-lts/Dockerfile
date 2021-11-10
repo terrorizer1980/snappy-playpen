@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:xenial-20210114
 
 RUN apt update && apt dist-upgrade -y && apt install -y snapcraft && apt clean
 
