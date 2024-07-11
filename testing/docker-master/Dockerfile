@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:xenial-20201014
 
 RUN apt-get update && apt-get dist-upgrade -y && apt-get install -y devscripts equivs git
 
